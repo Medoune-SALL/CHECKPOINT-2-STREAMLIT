@@ -14,7 +14,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
 # Charger le dataset
-df = pd.read_csv("D:/DOWNNLOAD/Financial_inclusion_dataset.csv")
+df = pd.read_csv("Financial_inclusion_dataset.csv")
 
 # Initialiser le dataframe propre (df_clean) en clonant le dataframe original
 df_clean = df.copy()
