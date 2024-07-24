@@ -25,7 +25,7 @@ page = st.sidebar.radio("Aller vers la page :", pages)
 
 if page == pages[0]:
     st.write("### Accueil")
-    st.image("D:/DOWNNLOAD/bank.jpg")
+    st.image("bank.jpg")
     st.write("### Contexte du projet")
     st.write("Ce projet s'inscrit dans le cadre de l'Inclusion financière en Afrique.")
     st.write("L'objectif est de prédire quelles personnes sont les plus susceptibles d'avoir ou d'utiliser un compte bancaire.")
